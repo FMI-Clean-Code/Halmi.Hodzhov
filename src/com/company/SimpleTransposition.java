@@ -108,5 +108,11 @@ public class SimpleTransposition {
         String encrypted = encrypt(toCipher, cipherKey);
 
         System.out.println("Encrypted string is: " + encrypted);
+        String toDecrypt = decrypt(encrypted, cipherKey);
+
+        System.out.println("Decription : " + toDecrypt);
+
+        System.out.println("That's it");
+
     }
 }
